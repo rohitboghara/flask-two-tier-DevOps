@@ -1,0 +1,43 @@
+version: '3.9'
+
+services:
+    web:
+      build: .
+      image: root938/flask-two-tier-web:1.0
+      ports:
+        - "5000:5000"
+      environment:
+        DB_HOST: postgres
+        DB_PORT: 5432
+        DB_USER: postgres
+        DB_PASSWORD: postgres
+        DB_NAME: userdb
+      networks:
+        - data
+      depends_on:
+        postgres:
+          condition: service_healthy
+
+    postgres:
+      image: postgres:16
+      container_name: postgres
+      ports:
+        - "5432:5432"
+      volumes:
+        - ./data_storage:/var/lib/postgresql/data
+      environment:
+         POSTGRES_USER: postgres
+         POSTGRES_PASSWORD: postgres
+         POSTGRES_DB: userdb
+      healthcheck:
+        test: ["CMD-SHELL", "pg_isready -U postgres"]
+        interval: 5s
+        timeout: 5s
+        retries: 5
+      networks:
+        - data
+
+networks:
+  data:
+
+
