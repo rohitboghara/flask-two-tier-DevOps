@@ -3,7 +3,7 @@ version: '3.9'
 services:
     web:
       build: .
-      image: root938/flask-two-tier-web:1.0
+      #image: root938/flask-two-tier-web:latest
       ports:
         - "5000:5000"
       environment:

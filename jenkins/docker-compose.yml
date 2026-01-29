@@ -1,0 +1,13 @@
+version: '3.9'
+
+services:
+   jenkins:
+      build: . 
+      container_name: jenkins
+      ports:
+        - "8080:8080"
+      volumes:
+        - ./jenkins_home:/var/jenkins_home
+        - /var/run/docker.sock:/var/run/docker.sock
+      group_add:
+        - "124"  #--checke to GID number and chnage command "getent group docker" using to check to GID "124" replace
