@@ -95,3 +95,8 @@ def delete_user(user_id):
     except Exception as e:
         flash(f'Error deleting user: {str(e)}', 'error')
     return redirect(url_for('main.index'))
+
+@main_bp.route('/favicon.ico')
+def favicon():
+    """Handle favicon requests to prevent 404 errors."""
+    return '', 204

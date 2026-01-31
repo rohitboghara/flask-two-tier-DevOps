@@ -1,0 +1,31 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.4
+Build-Jdk-Spec: 17
+Specification-Title: OWASP Dependency-Check Plugin
+Specification-Version: 5.6
+Specification-Vendor: OWASP
+Implementation-Title: OWASP Dependency-Check Plugin
+Implementation-Version: 5.6.2
+Implementation-Vendor: OWASP
+Group-Id: org.jenkins-ci.plugins
+Artifact-Id: dependency-check-jenkins-plugin
+Short-Name: dependency-check-jenkins-plugin
+Long-Name: OWASP Dependency-Check Plugin
+Url: https://github.com/jenkinsci/dependency-check-plugin
+Plugin-Version: 5.6.2
+Hudson-Version: 2.479.3
+Jenkins-Version: 2.479.3
+Plugin-Dependencies: commons-lang3-api:3.18.0-98.v3a_674c06072d,commons-
+ text-api:1.13.1-176.v74d88f22034b_,echarts-api:5.6.0-5,workflow-api:137
+ 3.v7b_813f10efa_b_;resolution:=optional,plain-credentials:199.v9f8e1f74
+ 1799
+Plugin-Developers: Steve Springett::steve.springett@owasp.org,Nikolas Fa
+ lco:nfalco79:nfalco79@hotmail.com
+Plugin-License-Name: Apache-2.0
+Plugin-License-Url: https://www.apache.org/licenses/LICENSE-2.0.txt
+Plugin-ScmConnection: scm:git:https://github.com/jenkinsci/dependency-ch
+ eck-plugin
+Plugin-ScmTag: dependency-check-jenkins-plugin-5.6.2
+Plugin-ScmUrl: https://github.com/jenkinsci/dependency-check-plugin
+Implementation-Build: 2b0f837861e9f21402f3a77f69594012ff868f4d
+

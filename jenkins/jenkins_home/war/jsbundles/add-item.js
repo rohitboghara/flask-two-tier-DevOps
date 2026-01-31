@@ -67,8 +67,7 @@ function createElementFromHtml(html) {
   return template.content.firstElementChild;
 }
 function toId(string) {
-  const trimmed = string.trim();
-  return Array.from(trimmed).map(c => c.codePointAt(0).toString(16)).join("-");
+  return string.trim().replace(/[\W_]+/g, "-").toLowerCase();
 }
 ;// ./src/main/js/add-item.js
 
@@ -172,8 +171,8 @@ document.addEventListener("DOMContentLoaded", () => {
       category.items.forEach(elem => {
         $items.append(drawItem(elem));
       });
-      $catHeader.append(createElementFromHtml(title));
-      $catHeader.append(createElementFromHtml(description));
+      $catHeader.append(title);
+      $catHeader.append(description);
       $category.append($catHeader);
       $category.append($items);
       return $category;
