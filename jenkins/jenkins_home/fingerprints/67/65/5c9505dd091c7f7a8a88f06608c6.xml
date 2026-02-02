@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2026-02-02 06:03:37.670 UTC</timestamp>
+  <md5sum>67655c9505dd091c7f7a8a88f06608c6</md5sum>
+  <fileName>Credential id=dockerhub-creds name=root938/****** (Docker Hub login)</fileName>
+  <usages>
+    <entry>
+      <string>test</string>
+      <ranges>11-13</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>
