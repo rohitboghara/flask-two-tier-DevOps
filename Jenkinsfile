@@ -41,8 +41,8 @@ pipeline {
            steps {
                sh '''
                
-               kubectl apply -f kubenetes/namespace.yml -f kubenetes/postgres-deployment.yml
-               kubectl apply -f kubenetes/postgres-deployment.yml
+               kubectl apply -f kubernetes/namespace.yml -f kubenetes/postgres-deployment.yml
+               kubectl apply -f kubernetes/postgres-deployment.yml
                '''
            }
        }
