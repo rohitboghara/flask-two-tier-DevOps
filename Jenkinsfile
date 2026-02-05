@@ -37,11 +37,12 @@ pipeline {
                '''
            }
        }
-       stage('Deploy Web'){
+       stage('Deploy Kube'){
            steps {
                sh '''
-               docker compose down -v
-               docker compose up -d
+               
+               kubectl apply -f kubenetes/namespace.yml -f kubenetes/postgres-deployment.yml
+               kubectl apply -f kubenetes/postgres-deployment.yml
                '''
            }
        }
