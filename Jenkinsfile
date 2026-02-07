@@ -44,7 +44,7 @@ pipeline {
                kubectl apply -f kubernetes/namespace.yml -f kubenetes/postgres-deployment.yml
                kubectl apply -f kubernetes/flask-web-deployment.yml
                echo "Waiting for flask-web deployment..."
-               kubectl rollout status deployment/flask-web -n flask-app
+               kubectl rollout status deployment/flask-deployment -n flask-app
                echo "Starting port forward..."
  
                nohup kubectl port-forward -n flask-app svc/flask-service 5000:5000 --address=0.0.0.0 > port-forward.log 2>&1 &
