@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent { label: 'agent1' }
     environment{
         DOCKERAPP_NAME = "root938/flask-two-tier-web"
     }
