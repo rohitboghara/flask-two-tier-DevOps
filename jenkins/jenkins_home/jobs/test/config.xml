@@ -24,58 +24,25 @@
       </triggers>
     </org.jenkinsci.plugins.workflow.job.properties.PipelineTriggersJobProperty>
   </properties>
-  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@4255.vd9c37f80fd8a_">
-    <script>pipeline {
-    agent any
-    environment{
-        DOCKERAPP_NAME = &quot;root938/flask-two-tier-web&quot;
-    }
-    stages {
-        stage(&apos;Checkout&apos;) {
-            steps {
-                git branch: &apos;master&apos;,
-                  url: &apos;https://github.com/rohitboghara/flask-two-tier-DevOps.git&apos;
-            }
-        }
-       stage(&apos;Build Code&apos;){
-           steps{
-           sh &apos;docker build -t flask-test:latest .&apos;
-
-       }
-       }
-       stage(&apos;Docker Login&apos;) {
-         steps {
-             withCredentials([usernamePassword(
-                credentialsId: &apos;dockerhub-creds&apos;,
-                usernameVariable: &apos;DOCKER_USER&apos;,
-                passwordVariable: &apos;DOCKER_PASS&apos;
-            )]) {
-                sh &apos;&apos;&apos;
-                echo &quot;$DOCKER_PASS&quot; | docker login -u &quot;$DOCKER_USER&quot; --password-stdin
-                &apos;&apos;&apos;
-            }
-         }
-    }
-       stage(&apos;Docker Push&apos;){
-           steps {
-               sh &apos;&apos;&apos;
-               docker tag flask-test:latest ${DOCKERAPP_NAME}:1.1
-               docker push ${DOCKERAPP_NAME}:1.1
-               &apos;&apos;&apos;
-           }
-       }
-       stage(&apos;Deploy Web&apos;){
-           steps {
-               sh &apos;&apos;&apos;
-               docker compose down -v
-               docker compose up -d
-               &apos;&apos;&apos;
-           }
-       }
-    }
-}
-</script>
-    <sandbox>true</sandbox>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsScmFlowDefinition" plugin="workflow-cps@4255.vd9c37f80fd8a_">
+    <scm class="hudson.plugins.git.GitSCM" plugin="git@5.9.0">
+      <configVersion>2</configVersion>
+      <userRemoteConfigs>
+        <hudson.plugins.git.UserRemoteConfig>
+          <url>https://github.com/rohitboghara/flask-two-tier-DevOps.git</url>
+        </hudson.plugins.git.UserRemoteConfig>
+      </userRemoteConfigs>
+      <branches>
+        <hudson.plugins.git.BranchSpec>
+          <name>*/master</name>
+        </hudson.plugins.git.BranchSpec>
+      </branches>
+      <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+      <submoduleCfg class="empty-list"/>
+      <extensions/>
+    </scm>
+    <scriptPath>Jenkinsfile</scriptPath>
+    <lightweight>true</lightweight>
   </definition>
   <triggers/>
   <disabled>false</disabled>

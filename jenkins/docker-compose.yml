@@ -6,6 +6,7 @@ services:
       container_name: jenkins
       ports:
         - "8080:8080"
+        - "50000:50000"
       environment:
         - TZ=Asia/Kolkata
         - JAVA_OPTS=-Duser.timezone=Asia/Kolkata
@@ -14,3 +15,7 @@ services:
         - /var/run/docker.sock:/var/run/docker.sock
       group_add:
         - "124"  #--checke to GID number and chnage command "getent group docker" using to check to GID "124" replace
+      networks:
+       - jenkins
+networks:
+  jenkins:
