@@ -1,0 +1,5 @@
+Started by user [8mha:////4HlgFpeuQUch7WnEqkBLd46uLdCfrOTCBdVpT/m9Ob3hAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Lightweight checkout support not available, falling back to full checkout.
+Checking out hudson.scm.NullSCM into /var/jenkins_home/workspace/test@script/cc16657c10aa1beba73a08aeae7befd962f25696ad07f7290e5a8ac96a8ca30b to read Jenkinsfile
+ERROR: /var/jenkins_home/workspace/test@script/cc16657c10aa1beba73a08aeae7befd962f25696ad07f7290e5a8ac96a8ca30b/Jenkinsfile not found
+Finished: FAILURE

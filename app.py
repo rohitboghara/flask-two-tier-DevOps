@@ -14,12 +14,19 @@ import time
 from prometheus_client import Gauge
 import traceback
 
-# Import Blueprints and their setup functions
-from routes.main_routes import main_bp, set_db_and_csrf
-from routes.health_routes import health_bp, set_db as set_health_db
+# Import logging_config
+from logging_config import setup_logging
+
+# Import Blueprints
+from routes.main_routes import main_bp
+from routes.health_routes import health_bp
 
 # Initialize Flask application
 app = Flask(__name__)
+
+# Setup logging
+setup_logging(app)
+
 app.secret_key = SECRET_KEY
 csrf = CSRFProtect(app)
 
@@ -54,22 +61,22 @@ metrics_thread.start()
 
 # Initialize data layer with PostgreSQL connection from environment variables
 try:
-    db = DataLayer(
+    app.db = DataLayer(
         host=DATABASE_CONFIG['host'],
         database=DATABASE_CONFIG['database'],
         user=DATABASE_CONFIG['user'],
         password=DATABASE_CONFIG['password'],
         port=DATABASE_CONFIG['port']
     )
-    print("✅ Database connection established successfully!")
+    app.logger.info("Database connection established successfully!", extra={"event": "db_connected"})
 except Exception as e:
-    print(f"❌ Database connection failed: {e}")
-    print("Please check your .env file and database configuration.")
-    exit(1)
+    app.db = None
+    app.logger.error(f"Database connection failed: {e}", extra={"event": "db_connection_failed"})
+    app.logger.warning("Please check your .env file and database configuration. The application will start but database features will be unavailable.")
 
-# Pass the db instance to the blueprints
-set_db_and_csrf(db, csrf)
-set_health_db(db)
+
+# Store csrf instance on app object
+app.csrf = csrf
 
 # Register Blueprints
 app.register_blueprint(main_bp)
@@ -79,14 +86,20 @@ app.register_blueprint(health_bp)
 @app.errorhandler(Exception)
 def handle_exception(e):
     # Log the full traceback for debugging
-    app.logger.error(f"Unhandled Exception: {e}\n{traceback.format_exc()}")
+    app.logger.error(f"Unhandled Exception: {e}", extra={
+        "event": "unhandled_exception",
+        "exception": traceback.format_exc()
+    })
     flash('An unexpected error occurred. Please try again later.', 'error')
     return render_template('index.html'), 500
 
 
 if __name__ == '__main__':
-    print(f"\n🚀 Starting Flask application in {ENVIRONMENT} mode...")
-    print(f"📍 Access the application at: http://{HOST}:{PORT}")
-    print(f"🔍 Health check at: http://{HOST}:{PORT}/health\n")
+    app.logger.info(f"Starting Flask application in {ENVIRONMENT} mode...", extra={
+        "event": "app_startup",
+        "environment": ENVIRONMENT,
+        "host": HOST,
+        "port": PORT
+    })
     
     app.run(debug=DEBUG, host=HOST, port=PORT)

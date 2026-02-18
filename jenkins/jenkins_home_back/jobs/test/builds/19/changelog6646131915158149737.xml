@@ -1,0 +1,10 @@
+commit 38b442df48c788f07b1e24ee96a29668ada080c1
+tree c0313a7dee25e846c20e74f3f4a3f7e07696a3f2
+parent 843ccb81646d37cc06c7ae63a5e0986222c5adec
+author root <rohitboghara> 2026-02-03 13:37:38 +0530
+committer root <rohitboghara> 2026-02-03 13:37:38 +0530
+
+    change Jenkinsfile configuration
+
+
+:100644 100644 823f46db15d174eece71a8bd297ca653ff57eed3 132137a7d1e6176c3f68532effa61de2b9e161c8 M	Jenkinsfile

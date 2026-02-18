@@ -1,0 +1,333 @@
+Started by user [8mha:////4HlgFpeuQUch7WnEqkBLd46uLdCfrOTCBdVpT/m9Ob3hAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Obtained Jenkinsfile from git https://github.com/rohitboghara/flask-two-tier-DevOps.git
+[8mha:////4O77NYPa59LggWWOlRpRbimQUxWEmt5/gQnsy9vcwIf6AAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4P7gyVbWdMbIh3qO9phwobo+93oXHRosol94oQ5NGC5jAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4CA2eOhbro7iTJ9vhR7sgo8k9iftZ0dMvl+6AYleu0V7AAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgZB/eT83ILSktQi/cT01LwSI30ATYITcsYAAAA=[0magent2 in /root/jenkins/jenkins_home/workspace/test
+[8mha:////4NNG6UBPR+Owa1F/seIquJg/cmMF05Q48zlKBRdplLibAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4OBBEatT6UCLrNqHrWDAUbY4fa+ELwlaBu+uup7e+eYcAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4JJIT+5hjeCWpiFP9Y0McxAsnEkAs7Ud3GBdxQdR7/crAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4HmLucpfsLXsKjy9PpVBvArirvMqIqpwLCR9pIiIKXClAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+The recommended git tool is: git
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/rohitboghara/flask-two-tier-DevOps.git
+ > git init /root/jenkins/jenkins_home/workspace/test # timeout=10
+Fetching upstream changes from https://github.com/rohitboghara/flask-two-tier-DevOps.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.47.3'
+ > git fetch --tags --force --progress -- https://github.com/rohitboghara/flask-two-tier-DevOps.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/rohitboghara/flask-two-tier-DevOps.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+Checking out Revision e8da6636ab23356bbcb9a3bbe7c82be268059c01 (refs/remotes/origin/master)
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f e8da6636ab23356bbcb9a3bbe7c82be268059c01 # timeout=10
+Commit message: "change file"
+ > git rev-list --no-walk 1f14122c79a208a666c3d8e40456ebe865d39c45 # timeout=10
+[8mha:////4B2yueoJqkk/vJD9UydYttD1+MwBMKSBm4zFx6GXm6kDAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4IQ1Al2S91zc8+M++37tLtxlryMyLJnYyJFrK82nC1qnAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4HNae0G/btPn7KvSWjS2BDjMwk3dOsuLy3O4gtPOTvn4AAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] withEnv
+[8mha:////4J9mAUol8M/IyLVwEgbqlpZQpD3Qf4aJDPv+yyoBaho0AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] {
+[8mha:////4NdHcXJRSh1lqednGraGRuBI8IdYljqkUMTaawIQPWvbAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] withEnv
+[8mha:////4MzZ3509+Zb/7DxeqVvF9cwHdLM4RXdFK8UBN/3FlL8bAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] {
+[8mha:////4Py6uLM6s2rk4dtSNlGklS/1jWPmfIG/6w5x5+oQj0+zAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAbNWnxXCAAAA[0m[Pipeline] stage
+[8mha:////4N7sMy3+AUt/4m9fKL02TQzKpC8b3nofnZp95t7ghan2AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSDAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD5WQ+PfCAAAA[0m[Pipeline] { (Checkout)
+[8mha:////4NAyWcDUR0iRxhm46A7EBMbuRWRXBGvVEAICLY/R2UpjAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCmgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN7LjSKW+AAAA[0m[Pipeline] git
+The recommended git tool is: git
+No credentials specified
+Fetching changes from the remote Git repository
+ > git rev-parse --resolve-git-dir /root/jenkins/jenkins_home/workspace/test/.git # timeout=10
+ > git config remote.origin.url https://github.com/rohitboghara/flask-two-tier-DevOps.git # timeout=10
+Fetching upstream changes from https://github.com/rohitboghara/flask-two-tier-DevOps.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.47.3'
+ > git fetch --tags --force --progress -- https://github.com/rohitboghara/flask-two-tier-DevOps.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+Checking out Revision e8da6636ab23356bbcb9a3bbe7c82be268059c01 (refs/remotes/origin/master)
+Commit message: "change file"
+[8mha:////4PtPN4+2oQfxCMkDeqJ2xLq4V9dPIEWFiVRFWirRX1heAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCkSBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQGOY4V7vgAAAA==[0m[Pipeline] }
+[8mha:////4N4B4Lm8KZld4HEu4ZAy5r0jrETf+U/c5BSEwV5mMYNGAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJAokRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g3N4dT9vgAAAA==[0m[Pipeline] // stage
+[8mha:////4GDAZaRW2Y7WFpSz7Kw7iVo6vSsnZMfsNhK3J8+fOyBYAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUiAkhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD21FAanCAAAA[0m[Pipeline] stage
+[8mha:////4IrVUjEpO1wBs0KtRaIWdfpsnEnahn+3iegU3JRndey9AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogU2BDqxBp14QShCSFp9H9JUtKJE3E17kCgEhMeLNuS9Z4vqIKHhrxmVmFvMHSGDW7UObFEvr84SszSmXWEgZxirUotSXWca0tRwayihAWHpcLOUTCoI6y4FXdRO4G6PkWftwOH0sgbPKDgmRyFj98yeVhfRxkIf5y/AJiGCOV2n223+TyrN7xWSV3CAAAA[0m[Pipeline] { (Build Code)
+[8mha:////4MU0jZTMc6DfNeG0MKrCBBDCmdYfGRzcv1HKuNq78z07AAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICtIgqreWGF5jYGCfWnbEdkooX8TX+QCASFVusdraZ5wuWKcKRo8XWUOcoNQ6D7+20cODYXTwP2PIZG6bE3qA0g2Rt6hklZwNzihIWAlaGGs/Jkc2wFq26q8orstUpx+k7CCidvsEDCjGZs4r5C2OEzbXXienn+SuAMWQo99tP7cIbaOP4NL4AAAA=[0m[Pipeline] sh
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f e8da6636ab23356bbcb9a3bbe7c82be268059c01 # timeout=10
+ > git branch -a -v --no-abbrev # timeout=10
+ > git checkout -b master e8da6636ab23356bbcb9a3bbe7c82be268059c01 # timeout=10
++ docker build -t flask-test:latest .
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile:
+#1 transferring dockerfile: 439B 0.0s done
+#1 DONE 0.2s
+
+#2 [internal] load metadata for docker.io/library/python:3.10-slim
+#2 ...
+
+#3 [auth] library/python:pull token for registry-1.docker.io
+#3 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.10-slim
+#2 DONE 4.6s
+
+#4 [internal] load .dockerignore
+#4 transferring context: 2B done
+#4 DONE 0.1s
+
+#5 [1/7] FROM docker.io/library/python:3.10-slim@sha256:218027ad8e5a6fb68245ccffcb8bcfa98d9891039bfedd53b1b4666dc48a4bb1
+#5 resolve docker.io/library/python:3.10-slim@sha256:218027ad8e5a6fb68245ccffcb8bcfa98d9891039bfedd53b1b4666dc48a4bb1 0.2s done
+#5 sha256:218027ad8e5a6fb68245ccffcb8bcfa98d9891039bfedd53b1b4666dc48a4bb1 10.37kB / 10.37kB done
+#5 sha256:c527c2bded6c6aefb87d87d4077cc9c0c887e878c4712b5f891f4d7f980130cf 1.75kB / 1.75kB done
+#5 sha256:988b1bc8015840dc964d73346946665ad513f8040de02ad5ecae13ce97669d96 5.48kB / 5.48kB done
+#5 sha256:0c8d55a45c0dc58de60579b9cc5b708de9e7957f4591fc7de941b67c7e245da0 0B / 29.78MB 0.3s
+#5 sha256:690eaffcf0e9a6e579bf82062d0d78590bd1bc000a309b8e76ff4ca460bcdb6f 0B / 1.29MB 0.3s
+#5 sha256:d0d1977db48579fff601d66e8aa7525a837b9b23aa7f8e0d3e1de01d8fb6ace6 0B / 13.82MB 0.4s
+#5 sha256:0c8d55a45c0dc58de60579b9cc5b708de9e7957f4591fc7de941b67c7e245da0 2.10MB / 29.78MB 1.6s
+#5 sha256:0c8d55a45c0dc58de60579b9cc5b708de9e7957f4591fc7de941b67c7e245da0 5.18MB / 29.78MB 1.9s
+#5 sha256:690eaffcf0e9a6e579bf82062d0d78590bd1bc000a309b8e76ff4ca460bcdb6f 1.05MB / 1.29MB 4.0s
+#5 sha256:690eaffcf0e9a6e579bf82062d0d78590bd1bc000a309b8e76ff4ca460bcdb6f 1.29MB / 1.29MB 4.3s done
+#5 sha256:d0d1977db48579fff601d66e8aa7525a837b9b23aa7f8e0d3e1de01d8fb6ace6 1.05MB / 13.82MB 4.5s
+#5 sha256:63ebb7511fc188c7eca8836db8cac7bc37e7d188bd4e5fc617fa0f20979d8a7e 0B / 250B 4.5s
+#5 sha256:0c8d55a45c0dc58de60579b9cc5b708de9e7957f4591fc7de941b67c7e245da0 7.15MB / 29.78MB 4.7s
+#5 sha256:d0d1977db48579fff601d66e8aa7525a837b9b23aa7f8e0d3e1de01d8fb6ace6 2.01MB / 13.82MB 5.2s
+#5 sha256:63ebb7511fc188c7eca8836db8cac7bc37e7d188bd4e5fc617fa0f20979d8a7e 250B / 250B 5.1s done
+#5 sha256:d0d1977db48579fff601d66e8aa7525a837b9b23aa7f8e0d3e1de01d8fb6ace6 3.15MB / 13.82MB 5.9s
+#5 sha256:0c8d55a45c0dc58de60579b9cc5b708de9e7957f4591fc7de941b67c7e245da0 9.44MB / 29.78MB 6.3s
+#5 sha256:d0d1977db48579fff601d66e8aa7525a837b9b23aa7f8e0d3e1de01d8fb6ace6 4.19MB / 13.82MB 6.3s
+#5 sha256:d0d1977db48579fff601d66e8aa7525a837b9b23aa7f8e0d3e1de01d8fb6ace6 5.24MB / 13.82MB 6.5s
+#5 sha256:d0d1977db48579fff601d66e8aa7525a837b9b23aa7f8e0d3e1de01d8fb6ace6 6.29MB / 13.82MB 7.0s
+#5 sha256:0c8d55a45c0dc58de60579b9cc5b708de9e7957f4591fc7de941b67c7e245da0 11.53MB / 29.78MB 7.2s
+#5 sha256:d0d1977db48579fff601d66e8aa7525a837b9b23aa7f8e0d3e1de01d8fb6ace6 7.34MB / 13.82MB 7.2s
+#5 sha256:d0d1977db48579fff601d66e8aa7525a837b9b23aa7f8e0d3e1de01d8fb6ace6 8.36MB / 13.82MB 7.4s
+#5 sha256:d0d1977db48579fff601d66e8aa7525a837b9b23aa7f8e0d3e1de01d8fb6ace6 9.44MB / 13.82MB 7.8s
+#5 sha256:d0d1977db48579fff601d66e8aa7525a837b9b23aa7f8e0d3e1de01d8fb6ace6 10.49MB / 13.82MB 7.9s
+#5 sha256:0c8d55a45c0dc58de60579b9cc5b708de9e7957f4591fc7de941b67c7e245da0 13.63MB / 29.78MB 8.0s
+#5 sha256:d0d1977db48579fff601d66e8aa7525a837b9b23aa7f8e0d3e1de01d8fb6ace6 11.53MB / 13.82MB 8.2s
+#5 sha256:d0d1977db48579fff601d66e8aa7525a837b9b23aa7f8e0d3e1de01d8fb6ace6 12.58MB / 13.82MB 8.5s
+#5 sha256:0c8d55a45c0dc58de60579b9cc5b708de9e7957f4591fc7de941b67c7e245da0 15.73MB / 29.78MB 8.7s
+#5 sha256:d0d1977db48579fff601d66e8aa7525a837b9b23aa7f8e0d3e1de01d8fb6ace6 13.82MB / 13.82MB 8.7s
+#5 sha256:d0d1977db48579fff601d66e8aa7525a837b9b23aa7f8e0d3e1de01d8fb6ace6 13.82MB / 13.82MB 8.7s done
+#5 sha256:0c8d55a45c0dc58de60579b9cc5b708de9e7957f4591fc7de941b67c7e245da0 17.83MB / 29.78MB 9.4s
+#5 ...
+
+#6 [internal] load build context
+#6 transferring context: 41.59MB 9.9s
+#6 ...
+
+#5 [1/7] FROM docker.io/library/python:3.10-slim@sha256:218027ad8e5a6fb68245ccffcb8bcfa98d9891039bfedd53b1b4666dc48a4bb1
+#5 sha256:0c8d55a45c0dc58de60579b9cc5b708de9e7957f4591fc7de941b67c7e245da0 19.92MB / 29.78MB 11.8s
+#5 sha256:0c8d55a45c0dc58de60579b9cc5b708de9e7957f4591fc7de941b67c7e245da0 22.02MB / 29.78MB 12.9s
+#5 sha256:0c8d55a45c0dc58de60579b9cc5b708de9e7957f4591fc7de941b67c7e245da0 24.12MB / 29.78MB 13.7s
+#5 sha256:0c8d55a45c0dc58de60579b9cc5b708de9e7957f4591fc7de941b67c7e245da0 26.21MB / 29.78MB 14.2s
+#5 sha256:0c8d55a45c0dc58de60579b9cc5b708de9e7957f4591fc7de941b67c7e245da0 29.36MB / 29.78MB 14.8s
+#5 sha256:0c8d55a45c0dc58de60579b9cc5b708de9e7957f4591fc7de941b67c7e245da0 29.78MB / 29.78MB 15.1s done
+#5 extracting sha256:0c8d55a45c0dc58de60579b9cc5b708de9e7957f4591fc7de941b67c7e245da0
+#5 ...
+
+#6 [internal] load build context
+#6 transferring context: 120.96MB 19.4s
+#6 ...
+
+#5 [1/7] FROM docker.io/library/python:3.10-slim@sha256:218027ad8e5a6fb68245ccffcb8bcfa98d9891039bfedd53b1b4666dc48a4bb1
+#5 extracting sha256:0c8d55a45c0dc58de60579b9cc5b708de9e7957f4591fc7de941b67c7e245da0 5.1s
+#5 ...
+
+#6 [internal] load build context
+#6 transferring context: 206.34MB 27.0s
+#6 transferring context: 280.78MB 32.2s
+#6 ...
+
+#5 [1/7] FROM docker.io/library/python:3.10-slim@sha256:218027ad8e5a6fb68245ccffcb8bcfa98d9891039bfedd53b1b4666dc48a4bb1
+#5 extracting sha256:0c8d55a45c0dc58de60579b9cc5b708de9e7957f4591fc7de941b67c7e245da0 14.6s done
+#5 extracting sha256:690eaffcf0e9a6e579bf82062d0d78590bd1bc000a309b8e76ff4ca460bcdb6f 0.7s done
+#5 extracting sha256:d0d1977db48579fff601d66e8aa7525a837b9b23aa7f8e0d3e1de01d8fb6ace6 5.1s
+#5 ...
+
+#6 [internal] load build context
+#6 transferring context: 341.84MB 37.4s
+#6 ...
+
+#5 [1/7] FROM docker.io/library/python:3.10-slim@sha256:218027ad8e5a6fb68245ccffcb8bcfa98d9891039bfedd53b1b4666dc48a4bb1
+#5 extracting sha256:d0d1977db48579fff601d66e8aa7525a837b9b23aa7f8e0d3e1de01d8fb6ace6 7.0s done
+#5 extracting sha256:63ebb7511fc188c7eca8836db8cac7bc37e7d188bd4e5fc617fa0f20979d8a7e done
+#5 DONE 40.2s
+
+#6 [internal] load build context
+#6 transferring context: 385.20MB 42.5s
+#6 transferring context: 402.05MB 47.6s
+#6 ...
+
+#7 [2/7] RUN groupadd -r appuser && useradd -r -g appuser -d /apps -s /sbin/nologin -c "Application User" appuser
+#7 ...
+
+#6 [internal] load build context
+#6 transferring context: 420.90MB 52.7s
+#6 ...
+
+#7 [2/7] RUN groupadd -r appuser && useradd -r -g appuser -d /apps -s /sbin/nologin -c "Application User" appuser
+#7 DONE 16.4s
+
+#6 [internal] load build context
+#6 ...
+
+#8 [3/7] WORKDIR /apps
+#8 DONE 1.0s
+
+#6 [internal] load build context
+#6 transferring context: 435.04MB 57.8s
+#6 transferring context: 482.64MB 62.9s
+#6 transferring context: 564.33MB 68.0s
+#6 transferring context: 617.32MB 73.1s
+#6 transferring context: 666.05MB 78.1s
+#6 transferring context: 719.09MB 83.2s
+#6 transferring context: 789.79MB 88.3s
+#6 transferring context: 831.47MB 93.5s
+#6 transferring context: 864.47MB 95.8s done
+#6 DONE 96.1s
+
+#9 [4/7] COPY requirements.txt .
+#9 DONE 0.6s
+
+#10 [5/7] RUN pip install -r requirements.txt
+#10 6.962 Collecting Flask==3.0.0
+#10 7.088   Downloading flask-3.0.0-py3-none-any.whl (99 kB)
+#10 7.177      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 99.7/99.7 kB 1.1 MB/s eta 0:00:00
+#10 7.299 Collecting Werkzeug==3.0.1
+#10 7.326   Downloading werkzeug-3.0.1-py3-none-any.whl (226 kB)
+#10 7.378      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 226.7/226.7 kB 5.8 MB/s eta 0:00:00
+#10 7.812 Collecting psycopg2-binary==2.9.9
+#10 7.834   Downloading psycopg2_binary-2.9.9-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.0 MB)
+#10 8.237      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.0/3.0 MB 7.7 MB/s eta 0:00:00
+#10 8.322 Collecting python-dotenv==1.0.0
+#10 8.358   Downloading python_dotenv-1.0.0-py3-none-any.whl (19 kB)
+#10 8.633 Collecting prometheus-flask-exporter==0.23.0
+#10 8.682   Downloading prometheus_flask_exporter-0.23.0-py3-none-any.whl (18 kB)
+#10 8.879 Collecting psutil==5.9.8
+#10 8.962   Downloading psutil-5.9.8-cp36-abi3-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (288 kB)
+#10 8.981      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 288.2/288.2 kB 22.5 MB/s eta 0:00:00
+#10 9.238 Collecting Flask-WTF==1.2.1
+#10 9.270   Downloading flask_wtf-1.2.1-py3-none-any.whl (12 kB)
+#10 9.359 Collecting gunicorn==22.0.0
+#10 9.395   Downloading gunicorn-22.0.0-py3-none-any.whl (84 kB)
+#10 9.412      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 84.4/84.4 kB 5.7 MB/s eta 0:00:00
+#10 9.502 Collecting itsdangerous>=2.1.2
+#10 9.573   Downloading itsdangerous-2.2.0-py3-none-any.whl (16 kB)
+#10 9.635 Collecting Jinja2>=3.1.2
+#10 9.680   Downloading jinja2-3.1.6-py3-none-any.whl (134 kB)
+#10 9.698      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 134.9/134.9 kB 7.5 MB/s eta 0:00:00
+#10 9.777 Collecting click>=8.1.3
+#10 9.811   Downloading click-8.3.1-py3-none-any.whl (108 kB)
+#10 9.827      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 108.3/108.3 kB 9.3 MB/s eta 0:00:00
+#10 9.883 Collecting blinker>=1.6.2
+#10 9.916   Downloading blinker-1.9.0-py3-none-any.whl (8.5 kB)
+#10 10.16 Collecting MarkupSafe>=2.1.1
+#10 10.20   Downloading markupsafe-3.0.3-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (20 kB)
+#10 10.57 Collecting prometheus-client
+#10 10.61   Downloading prometheus_client-0.24.1-py3-none-any.whl (64 kB)
+#10 10.63      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 64.1/64.1 kB 7.3 MB/s eta 0:00:00
+#10 10.90 Collecting wtforms
+#10 10.93   Downloading wtforms-3.2.1-py3-none-any.whl (152 kB)
+#10 10.94      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 152.5/152.5 kB 10.6 MB/s eta 0:00:00
+#10 11.15 Collecting packaging
+#10 11.18   Downloading packaging-26.0-py3-none-any.whl (74 kB)
+#10 11.24      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 74.4/74.4 kB 1.8 MB/s eta 0:00:00
+#10 11.94 Installing collected packages: python-dotenv, psycopg2-binary, psutil, prometheus-client, packaging, MarkupSafe, itsdangerous, click, blinker, wtforms, Werkzeug, Jinja2, gunicorn, Flask, prometheus-flask-exporter, Flask-WTF
+#10 13.46 Successfully installed Flask-3.0.0 Flask-WTF-1.2.1 Jinja2-3.1.6 MarkupSafe-3.0.3 Werkzeug-3.0.1 blinker-1.9.0 click-8.3.1 gunicorn-22.0.0 itsdangerous-2.2.0 packaging-26.0 prometheus-client-0.24.1 prometheus-flask-exporter-0.23.0 psutil-5.9.8 psycopg2-binary-2.9.9 python-dotenv-1.0.0 wtforms-3.2.1
+#10 13.48 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+#10 13.75 
+#10 13.75 [notice] A new release of pip is available: 23.0.1 -> 26.0.1
+#10 13.75 [notice] To update, run: pip install --upgrade pip
+#10 DONE 14.1s
+
+#11 [6/7] COPY . .
+#11 DONE 26.1s
+
+#12 [7/7] RUN chown -R appuser:appuser /apps
+#12 DONE 14.8s
+
+#13 exporting to image
+#13 exporting layers
+#13 exporting layers 39.1s done
+#13 writing image sha256:9b5861aba69fe1093836ab05a902ec91ee8a8b4ed2fb2ae8ae2e0ed1ebac31b8 0.0s done
+#13 naming to docker.io/library/flask-test:latest 0.1s done
+#13 DONE 39.3s
+[8mha:////4FdHCEynNZ2HpXofvgeo/S/xoSTtTPyelWw451l/CJKsAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKC0iIqWisNLzCJMXasO8d2cCpexNf4A4FIVGyx2tlmni9YxwBHDhqtot5QbA16N+p5YebQXx1ntHzBlimyU9io3HCnTgs2nBQsKUpYCdgoah1HQzrBVlh5l5WTpKtzCvN3EFCaboAHFGI2JxnSF6YAu9vYRaaf568AJu8TlHX9qf0b7E/nQb4AAAA=[0m[Pipeline] }
+[8mha:////4Cr0DG/CP2goyjtZd3ltuBAhWxu90VfDlcaV43eGReCfAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioEIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcrdPtf28AEud0rYvgAAAA==[0m[Pipeline] // stage
+[8mha:////4NLdBJqTvYrsPjLPcJTPrBE6DOo2Y3dwCxu9KPMmiYQ+AAAAqB+LCAAAAAAAAP9tjT0OwjAUg1+LOrAycohU/GyoE2vUhROEJoSk0XslSUknTsTVuAOBSkx4sGxL1vd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCg3u2zb/edZvQEuTHckwgAAAA==[0m[Pipeline] stage
+[8mha:////4EUE/jnJ/vG5ZA2c69xy4BIJGCSOiip7EhkVZh8Wa51FAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQjAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/hYjrHCAAAA[0m[Pipeline] { (Docker Login)
+[8mha:////4BZqy1jhCmOXzn0bi35908r3g9PiQ0Lyx0Q/nYtHc+rZAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQoIFMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfACW9ZT2wgAAAA==[0m[Pipeline] withCredentials
+Masking supported pattern matches of $DOCKER_PASS
+[8mha:////4NYYmh4gMD/9ZepmWDR8fo0Q26rdq7wUWu8BOZk4QVDgAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYoABMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAyQCqkwgAAAA==[0m[Pipeline] {
+[8mha:////4Ph2gOhbsslNQ8ZhzyOHt5I/5Mklhj1SDZzEqPYfA1XlAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0YCEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAGvZp0gvgAAAA==[0m[Pipeline] sh
++ docker login -u root938 --password-stdin
++ echo ****
+
+WARNING! Your credentials are stored unencrypted in '/root/.docker/config.json'.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/go/credential-store/
+
+Login Succeeded
+[8mha:////4FNs3gmfCt0WQ8t7Fvp9R97LarEDMWmQh0YcRwbxdR1qAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0SCEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQGMKkS1vgAAAA==[0m[Pipeline] }
+[8mha:////4JIdagOWc3ItUQFMeVWerqRo92EMmbbXMFOSEqP+6KGAAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCQKJBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw9mQDtDvgAAAA==[0m[Pipeline] // withCredentials
+[8mha:////4OUMFfhtnjLc4wJohSeaXG2nhqInOP1YQjgdJ6oNR8t/AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQFQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AF5wm4RvgAAAA==[0m[Pipeline] }
+[8mha:////4Dgc6Wue4TnyNYC4/zE0Q85UwT6rrrO9nQf9GkZ3Y56CAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBTpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOW+zlUfPkGA/eC+AAAA[0m[Pipeline] // stage
+[8mha:////4AYjkMas6hURbRskHGN8p+RsgoNvfVVZoFl5ZdFE6k+HAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUqCNiYo2ycIKQhpA2+r/8pLQTJ+Jq3IFAJSY8WLYl6z1fUEWGA7ETncXeYzReDGF0OYmJuL8EmkRHZ2EIIwUrlJ0Utfa4VEXJwqKihJWEtUUTKHp0CTay03ddB42uPiXO215C6dsbPKCQmZw0p2+ZGbbXsY2EP85fAMxDgnLXZGuaz7N6AyJ3BZ/CAAAA[0m[Pipeline] stage
+[8mha:////4A53S197j5MOpPZEolsibM1PfHnKdlwWjQ/wbhVt534OAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0KBtiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPBdk7bsIAAAA=[0m[Pipeline] { (Docker Push)
+[8mha:////4I51so/SWrSciq2x1CvoEWVcowixFx3GPCrWCr8Z2unEAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSABWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBtZos2m+AAAA[0m[Pipeline] sh
++ docker tag flask-test:latest root938/flask-two-tier-web:1.1
++ docker push root938/flask-two-tier-web:1.1
+The push refers to repository [docker.io/root938/flask-two-tier-web]
+41d30a38f9b8: Preparing
+ad47ae8bbc4c: Preparing
+d7b96086bc35: Preparing
+72b33b5e2e1b: Preparing
+65ffacdbacb1: Preparing
+4909ae6d8331: Preparing
+bb2cb0bd6077: Preparing
+9f0194fcc39b: Preparing
+2cb59db770d1: Preparing
+a8ff6f8cbdfd: Preparing
+4909ae6d8331: Waiting
+bb2cb0bd6077: Waiting
+9f0194fcc39b: Waiting
+2cb59db770d1: Waiting
+a8ff6f8cbdfd: Waiting
+72b33b5e2e1b: Pushed
+65ffacdbacb1: Pushed
+bb2cb0bd6077: Mounted from library/python
+4909ae6d8331: Pushed
+d7b96086bc35: Pushed
+a8ff6f8cbdfd: Layer already exists
+9f0194fcc39b: Mounted from library/python
+2cb59db770d1: Mounted from library/python
+ad47ae8bbc4c: Pushed
+41d30a38f9b8: Pushed
+1.1: digest: sha256:7070bd68b14071a585f2c2441355e58a418b35bb491d60bccd89bac85e728681 size: 2418
+[8mha:////4HKi+tXmy5dAffzFYyStViNu7ynv8KnM7uTioA1MYGuoAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSgGgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7Nxbzd2K+AAAA[0m[Pipeline] }
+[8mha:////4EQjT5U2Fern2bEruN8v/uhrVQWKKYGwYVeN2iVlFW+rAAAApB+LCAAAAAAAAP9tjTESwiAURH/iWNhaeghSpLBwrGwZGk+ACSKE+Z8AkVSeyKt5B9HMWLnFzr5t3vMF6xjgSEEzq3AwGDvDvJt0WSxTGK6OMrN0YR1hJKeYUFlQr04LCkoKllQ1rDhsFHaOokGdYMutvMvGSdTNOYXyHTjUph/hARUv5iRD+sIcYHeb+kj48/wVwOx9grrdf6p9AxC1Tze+AAAA[0m[Pipeline] // stage
+[8mha:////4OaeT82U5nlEMu779EVDgZZ0C6HDkZHI5+h/4yCHQVhVAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUqAsSYuoaZeEEIQkhbfR/SVLaiRNxNe5AoBITHizbkvWeL6higCMFyzqDvcOoHBv8aHNiE4X+4mliHZ2ZIozkDRNmEqRNu1RBycCiooQVh7VB5Sk6tAk2vJN3WXuJtj6lkLcDh9LpGzyg4JmcZEjfMgfYXkcdCX+cvwCYhwTlrsnW7D/P6g3hh8L1wgAAAA==[0m[Pipeline] stage
+[8mha:////4HjD/c1SnMswizXZiFm8cDCqxk9Bcte1MIiWWXQ4Nt2bAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0YAEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD59NhPHCAAAA[0m[Pipeline] { (Deploy Kube)
+[8mha:////4IAK2ElIok1IagJlpzjpAkhv92/QPfjsOmWBOV0CrvKFAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCBA1CqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKYhQrk75Npvhw/W61xwvgAAAA==[0m[Pipeline] sh
++ kubectl apply -f kubernetes/namespace.yml -f kubenetes/postgres-deployment.yml
+namespace/flask-app created
+persistentvolume/postgres-pv created
+persistentvolumeclaim/postgres-pvc created
+deployment.apps/postgres-deployment created
+service/postgres created
++ kubectl apply -f kubernetes/postgres-deployment.yml
+persistentvolume/postgres-pv unchanged
+persistentvolumeclaim/postgres-pvc unchanged
+deployment.apps/postgres-deployment unchanged
+service/postgres unchanged
+[8mha:////4FSfYcasTwKCXn4d6IRcH0wE9Al5CuQUgoP2K66Levq+AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBA1CqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw+dgWTEvgAAAA==[0m[Pipeline] }
+[8mha:////4BToyN3D162trcLgTjH5Z3BWigAN22Sh7pIAmcoULX5WAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAQUSSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wApcP3Nb4AAAA=[0m[Pipeline] // stage
+[8mha:////4AA+OMk+NoIIKThrTmU+TZsTLusUTtSY63pLC7X5pJiVAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRCh2iSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNn7BOWhzrWvPwqrT1u+AAAA[0m[Pipeline] }
+[8mha:////4LXJUsRLAqI7FyxYbADBMnITxNBxVTfdLJLFZiKtPNp1AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUDpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BGVd59ofPiSrTTG+AAAA[0m[Pipeline] // withEnv
+[8mha:////4ALcdWnkNPU0UN1tA75/p4c7bMedhzKSevUjd/EhMmR8AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiSFAhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyj3h1x1/QE7KRhjvgAAAA==[0m[Pipeline] }
+[8mha:////4FeEBEPkNeiyNOZ4l/ZXS7hgfByjosiYFxGfKNH1tou8AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICEqJBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDuD7l22w8Da4uSvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4DIavVV62XHH8X9y24B8DtBrGCQauu1/ooj4CzicffcCAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IsJA7GybVh8Qsq1Fpo3sP2IUx+kb/mP0gkcfJO95zlvN5Yp4gjR6daS52nVHvVh8HNT40cu2vgUbV8UTVT4mBVZceKG3tasGKxWJblWGlsLNWBkycn2OrWPEwRDLniLHF2B43cN3c8kem5LCbKF6aI3W1oEtOv8zeAqe8FebkXZOUHJmaoML0AAAA=[0m[Pipeline] }
+[8mha:////4O9uK4EBDwnlQu1RXXaBot5YPUwiEyM7dGzRttCvs/7MAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpoEBCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Lu9INt+AFRknCy9AAAA[0m[Pipeline] // node
+[8mha:////4P1uxxwaNfzpZHrXp7O4DVPu79WtTKylUTnSZ4eL7DWdAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKREA1CVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Lu9INt+AHJ9+2a9AAAA[0m[Pipeline] End of Pipeline
+Finished: SUCCESS

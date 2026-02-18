@@ -1,12 +1,5 @@
-from flask import Blueprint
+from flask import Blueprint, current_app
 from config import ENVIRONMENT
-
-# This will be passed from app.py
-_db = None
-
-def set_db(db_instance):
-    global _db
-    _db = db_instance
 
 health_bp = Blueprint('health', __name__)
 
@@ -14,7 +7,11 @@ health_bp = Blueprint('health', __name__)
 def health_check():
     """Health check endpoint"""
     try:
-        _db.get_all_users()
+        # Use a simpler query for health check
+        with current_app.db._get_connection() as conn:
+            with conn.cursor() as cursor:
+                cursor.execute('SELECT 1')
+                cursor.fetchone()
         return {
             'status': 'healthy',
             'environment': ENVIRONMENT,
