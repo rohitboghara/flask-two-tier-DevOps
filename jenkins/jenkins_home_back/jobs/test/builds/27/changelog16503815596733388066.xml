@@ -1,0 +1,10 @@
+commit 56a464b6119a7eb3e35b2db366a67b7ee1363323
+tree caa121cdcd98542832e387da965625667af6804e
+parent e8da6636ab23356bbcb9a3bbe7c82be268059c01
+author root <rohitboghara> 2026-02-07 11:50:53 +0530
+committer root <rohitboghara> 2026-02-07 11:50:53 +0530
+
+    add to jenkins
+
+
+:100644 100644 40cb75a87dc61b80b837f1332377ade1b6d52471 88fe2fbe4623cc372ea68fe6515100d8d7c7a897 M	Jenkinsfile

@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>io.jenkins.plugins</groupId>
   <artifactId>pipeline-graph-view</artifactId>
-  <version>772.vb_b_19985c0b_8b_</version>
+  <version>777.vdeb_113b_b_94da_</version>
   <packaging>hpi</packaging>
   <name>Pipeline Graph View Plugin</name>
   <description>The Jenkins Plugins Parent POM Project</description>
@@ -19,7 +19,7 @@
   <scm>
     <connection>scm:git:https://github.com/jenkinsci/pipeline-graph-view-plugin.git</connection>
     <developerConnection>scm:git:git@github.com:jenkinsci/pipeline-graph-view-plugin.git</developerConnection>
-    <tag>bb19985c0b8b36454af58c88beef6f3417e829e6</tag>
+    <tag>deb113bb94daf4b3ac05491d740e8462c536acfc</tag>
     <url>https://github.com/jenkinsci/pipeline-graph-view-plugin</url>
   </scm>
   <distributionManagement>
@@ -48,7 +48,7 @@
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>git</artifactId>
-      <version>5.8.1</version>
+      <version>5.9.0</version>
       <scope>compile</scope>
       <optional>true</optional>
     </dependency>
@@ -81,7 +81,7 @@
     <dependency>
       <groupId>org.jenkins-ci.plugins.workflow</groupId>
       <artifactId>workflow-cps</artifactId>
-      <version>4254.v0c8e228524ea_</version>
+      <version>4255.vd9c37f80fd8a_</version>
       <scope>compile</scope>
     </dependency>
     <dependency>

@@ -48,17 +48,14 @@ class DataLayer:
     def add_user(self, name: str, email: str, address: str) -> int:
         """Add a new user to the database"""
         user_id = None
-        try:
-            with self._get_connection() as conn:
-                with conn.cursor() as cursor:
-                    cursor.execute(
-                        'INSERT INTO users (name, email, address) VALUES (%s, %s, %s) RETURNING id',
-                        (name, email, address)
-                    )
-                    user_id = cursor.fetchone()[0]
-                    conn.commit()
-        except psycopg2.IntegrityError:
-            pass  # conn.rollback() is implicit with context exit
+        with self._get_connection() as conn:
+            with conn.cursor() as cursor:
+                cursor.execute(
+                    'INSERT INTO users (name, email, address) VALUES (%s, %s, %s) RETURNING id',
+                    (name, email, address)
+                )
+                user_id = cursor.fetchone()[0]
+                conn.commit()
         return user_id
     
     def get_user(self, user_id: int) -> Optional[Dict]:

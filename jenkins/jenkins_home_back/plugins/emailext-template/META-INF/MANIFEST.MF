@@ -1,0 +1,28 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.5
+Java-Version: 17
+Build-Jdk-Spec: 21
+Specification-Title: Email Extension Template Plugin
+Specification-Version: 0.0
+Implementation-Title: Email Extension Template Plugin
+Implementation-Version: 249.v81d6ea_f33f2e
+Group-Id: org.jenkinsci.plugins
+Artifact-Id: emailext-template
+Short-Name: emailext-template
+Long-Name: Email Extension Template Plugin
+Url: https://github.com/jenkinsci/emailext-template-plugin
+Plugin-Version: 249.v81d6ea_f33f2e
+Hudson-Version: 2.479.3
+Jenkins-Version: 2.479.3
+Plugin-Dependencies: ionicons-api:88.va_4187cb_eddf1,configurationslicin
+ g:664.vdda_74145b_b_d0;resolution:=optional,email-ext:1916.vc954a_f86ff
+ 21
+Plugin-Developers: 
+Plugin-License-Name: MIT License
+Plugin-License-Url: https://opensource.org/licenses/MIT
+Plugin-ScmConnection: scm:git:https://github.com/jenkinsci/emailext-temp
+ late-plugin.git
+Plugin-ScmTag: 81d6eaf33f2e1b3615a6a1a6f2c3dd24ad60e88a
+Plugin-ScmUrl: https://github.com/jenkinsci/emailext-template-plugin
+Implementation-Build: 81d6eaf33f2e1b3615a6a1a6f2c3dd24ad60e88a
+

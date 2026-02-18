@@ -5,14 +5,14 @@ Build-Jdk-Spec: 21
 Specification-Title: GitHub Branch Source Plugin
 Specification-Version: 0.0
 Implementation-Title: GitHub Branch Source Plugin
-Implementation-Version: 1936.vfa_a_5c2cef4e7
+Implementation-Version: 1967.vdea_d580c1a_b_a_
 Group-Id: org.jenkins-ci.plugins
 Artifact-Id: github-branch-source
 Short-Name: github-branch-source
 Long-Name: GitHub Branch Source Plugin
 Url: https://github.com/jenkinsci/github-branch-source-plugin
 Compatible-Since-Version: 2.2.0
-Plugin-Version: 1936.vfa_a_5c2cef4e7
+Plugin-Version: 1967.vdea_d580c1a_b_a_
 Hudson-Version: 2.539
 Jenkins-Version: 2.539
 Plugin-Dependencies: github:1.45.0,caffeine-api:3.2.3-194.v31a_b_f7a_b_5
@@ -25,7 +25,7 @@ Plugin-License-Name: MIT
 Plugin-License-Url: https://opensource.org/licenses/MIT
 Plugin-ScmConnection: scm:git:https://github.com/jenkinsci/github-branch
  -source-plugin.git
-Plugin-ScmTag: faa5c2cef4e79e5a22c044bcf57dc328848b09fb
+Plugin-ScmTag: dead580c1abaa4e8879521a0d30947c0f79f5b70
 Plugin-ScmUrl: https://github.com/jenkinsci/github-branch-source-plugin
-Implementation-Build: faa5c2cef4e79e5a22c044bcf57dc328848b09fb
+Implementation-Build: dead580c1abaa4e8879521a0d30947c0f79f5b70
 

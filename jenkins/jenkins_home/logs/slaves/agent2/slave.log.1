@@ -1,0 +1,139 @@
+Inbound agent connected from 10.195.88.254
+Remoting version: 3352.v17a_fb_4b_2773f
+Launcher: JNLPLauncher
+Communication Protocol: WebSocket
+This is a Unix agent
+Agent successfully connected and online
+ERROR: Failed to monitor for Clock Difference
+ERROR: Failed to monitor for Response Time
+ERROR: Failed to monitor for Free Temp Space
+ERROR: Failed to monitor for Free Swap Space
+ERROR: Failed to monitor for Architecture
+ERROR: Failed to monitor for Free Disk Space
+java.nio.channels.ClosedChannelException
+	at Jenkins Main ClassLoader//org.eclipse.jetty.websocket.core.internal.WebSocketSessionState.onOutgoingFrame(WebSocketSessionState.java:184)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.websocket.core.WebSocketCoreSession.sendFrame(WebSocketCoreSession.java:509)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.websocket.core.OutgoingFrames.sendFrame(OutgoingFrames.java:42)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.websocket.common.JettyWebSocketRemoteEndpoint.sendBytes(JettyWebSocketRemoteEndpoint.java:71)
+	at jenkins.websocket.Jetty12EE9Provider$1.sendBinary(Jetty12EE9Provider.java:90)
+	at jenkins.websocket.WebSocketSession.sendBinary(WebSocketSession.java:110)
+	at jenkins.agents.WebSocketAgents$Session.access$000(WebSocketAgents.java:124)
+Caused: java.util.concurrent.ExecutionException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at jenkins.agents.WebSocketAgents$Session$Transport.write(WebSocketAgents.java:188)
+Caused: java.io.IOException
+	at jenkins.agents.WebSocketAgents$Session$Transport.write(WebSocketAgents.java:190)
+	at hudson.remoting.AbstractByteBufferCommandTransport.write(AbstractByteBufferCommandTransport.java:336)
+	at hudson.remoting.Channel.send(Channel.java:829)
+	at hudson.remoting.Request.callAsync(Request.java:248)
+	at hudson.remoting.Channel.callAsync(Channel.java:1139)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitorDetailed(AbstractAsyncNodeMonitorDescriptor.java:93)
+	at hudson.node_monitors.ResponseTimeMonitor$DescriptorImpl.monitor(ResponseTimeMonitor.java:72)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:324)
+java.nio.channels.ClosedChannelException
+	at Jenkins Main ClassLoader//org.eclipse.jetty.websocket.core.internal.WebSocketSessionState.onOutgoingFrame(WebSocketSessionState.java:184)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.websocket.core.WebSocketCoreSession.sendFrame(WebSocketCoreSession.java:509)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.websocket.core.OutgoingFrames.sendFrame(OutgoingFrames.java:42)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.websocket.common.JettyWebSocketRemoteEndpoint.sendBytes(JettyWebSocketRemoteEndpoint.java:71)
+	at jenkins.websocket.Jetty12EE9Provider$1.sendBinary(Jetty12EE9Provider.java:90)
+	at jenkins.websocket.WebSocketSession.sendBinary(WebSocketSession.java:110)
+	at jenkins.agents.WebSocketAgents$Session.access$000(WebSocketAgents.java:124)
+Caused: java.util.concurrent.ExecutionException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at jenkins.agents.WebSocketAgents$Session$Transport.write(WebSocketAgents.java:188)
+Caused: java.io.IOException
+	at jenkins.agents.WebSocketAgents$Session$Transport.write(WebSocketAgents.java:190)
+	at hudson.remoting.AbstractByteBufferCommandTransport.write(AbstractByteBufferCommandTransport.java:336)
+	at hudson.remoting.Channel.send(Channel.java:829)
+	at hudson.remoting.Request.callAsync(Request.java:248)
+	at hudson.remoting.Channel.callAsync(Channel.java:1139)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitorDetailed(AbstractAsyncNodeMonitorDescriptor.java:93)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:76)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:324)
+java.nio.channels.ClosedChannelException
+	at Jenkins Main ClassLoader//org.eclipse.jetty.websocket.core.internal.WebSocketSessionState.onOutgoingFrame(WebSocketSessionState.java:184)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.websocket.core.WebSocketCoreSession.sendFrame(WebSocketCoreSession.java:509)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.websocket.core.OutgoingFrames.sendFrame(OutgoingFrames.java:42)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.websocket.common.JettyWebSocketRemoteEndpoint.sendBytes(JettyWebSocketRemoteEndpoint.java:71)
+	at jenkins.websocket.Jetty12EE9Provider$1.sendBinary(Jetty12EE9Provider.java:90)
+	at jenkins.websocket.WebSocketSession.sendBinary(WebSocketSession.java:110)
+	at jenkins.agents.WebSocketAgents$Session.access$000(WebSocketAgents.java:124)
+Caused: java.util.concurrent.ExecutionException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at jenkins.agents.WebSocketAgents$Session$Transport.write(WebSocketAgents.java:188)
+Caused: java.io.IOException
+	at jenkins.agents.WebSocketAgents$Session$Transport.write(WebSocketAgents.java:190)
+	at hudson.remoting.AbstractByteBufferCommandTransport.write(AbstractByteBufferCommandTransport.java:336)
+	at hudson.remoting.Channel.send(Channel.java:829)
+	at hudson.remoting.Request.callAsync(Request.java:248)
+	at hudson.remoting.Channel.callAsync(Channel.java:1139)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitorDetailed(AbstractAsyncNodeMonitorDescriptor.java:93)
+	at hudson.node_monitors.DiskSpaceMonitorDescriptor.monitor(DiskSpaceMonitorDescriptor.java:59)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:324)
+java.nio.channels.ClosedChannelException
+	at Jenkins Main ClassLoader//org.eclipse.jetty.websocket.core.internal.WebSocketSessionState.onOutgoingFrame(WebSocketSessionState.java:184)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.websocket.core.WebSocketCoreSession.sendFrame(WebSocketCoreSession.java:509)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.websocket.core.OutgoingFrames.sendFrame(OutgoingFrames.java:42)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.websocket.common.JettyWebSocketRemoteEndpoint.sendBytes(JettyWebSocketRemoteEndpoint.java:71)
+	at jenkins.websocket.Jetty12EE9Provider$1.sendBinary(Jetty12EE9Provider.java:90)
+	at jenkins.websocket.WebSocketSession.sendBinary(WebSocketSession.java:110)
+	at jenkins.agents.WebSocketAgents$Session.access$000(WebSocketAgents.java:124)
+Caused: java.util.concurrent.ExecutionException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at jenkins.agents.WebSocketAgents$Session$Transport.write(WebSocketAgents.java:188)
+Caused: java.io.IOException
+	at jenkins.agents.WebSocketAgents$Session$Transport.write(WebSocketAgents.java:190)
+	at hudson.remoting.AbstractByteBufferCommandTransport.write(AbstractByteBufferCommandTransport.java:336)
+	at hudson.remoting.Channel.send(Channel.java:829)
+	at hudson.remoting.Request.callAsync(Request.java:248)
+	at hudson.remoting.Channel.callAsync(Channel.java:1139)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitorDetailed(AbstractAsyncNodeMonitorDescriptor.java:93)
+	at hudson.node_monitors.DiskSpaceMonitorDescriptor.monitor(DiskSpaceMonitorDescriptor.java:59)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:324)
+java.nio.channels.ClosedChannelException
+	at Jenkins Main ClassLoader//org.eclipse.jetty.websocket.core.internal.WebSocketSessionState.onOutgoingFrame(WebSocketSessionState.java:184)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.websocket.core.WebSocketCoreSession.sendFrame(WebSocketCoreSession.java:509)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.websocket.core.OutgoingFrames.sendFrame(OutgoingFrames.java:42)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.websocket.common.JettyWebSocketRemoteEndpoint.sendBytes(JettyWebSocketRemoteEndpoint.java:71)
+	at jenkins.websocket.Jetty12EE9Provider$1.sendBinary(Jetty12EE9Provider.java:90)
+	at jenkins.websocket.WebSocketSession.sendBinary(WebSocketSession.java:110)
+	at jenkins.agents.WebSocketAgents$Session.access$000(WebSocketAgents.java:124)
+Caused: java.util.concurrent.ExecutionException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at jenkins.agents.WebSocketAgents$Session$Transport.write(WebSocketAgents.java:188)
+Caused: java.io.IOException
+	at jenkins.agents.WebSocketAgents$Session$Transport.write(WebSocketAgents.java:190)
+	at hudson.remoting.AbstractByteBufferCommandTransport.write(AbstractByteBufferCommandTransport.java:336)
+	at hudson.remoting.Channel.send(Channel.java:829)
+	at hudson.remoting.Request.callAsync(Request.java:248)
+	at hudson.remoting.Channel.callAsync(Channel.java:1139)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitorDetailed(AbstractAsyncNodeMonitorDescriptor.java:93)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:76)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:324)
+java.nio.channels.ClosedChannelException
+	at Jenkins Main ClassLoader//org.eclipse.jetty.websocket.core.internal.WebSocketSessionState.onOutgoingFrame(WebSocketSessionState.java:184)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.websocket.core.WebSocketCoreSession.sendFrame(WebSocketCoreSession.java:509)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.websocket.core.OutgoingFrames.sendFrame(OutgoingFrames.java:42)
+	at Jenkins Main ClassLoader//org.eclipse.jetty.ee9.websocket.common.JettyWebSocketRemoteEndpoint.sendBytes(JettyWebSocketRemoteEndpoint.java:71)
+	at jenkins.websocket.Jetty12EE9Provider$1.sendBinary(Jetty12EE9Provider.java:90)
+	at jenkins.websocket.WebSocketSession.sendBinary(WebSocketSession.java:110)
+	at jenkins.agents.WebSocketAgents$Session.access$000(WebSocketAgents.java:124)
+Caused: java.util.concurrent.ExecutionException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at jenkins.agents.WebSocketAgents$Session$Transport.write(WebSocketAgents.java:188)
+Caused: java.io.IOException
+	at jenkins.agents.WebSocketAgents$Session$Transport.write(WebSocketAgents.java:190)
+	at hudson.remoting.AbstractByteBufferCommandTransport.write(AbstractByteBufferCommandTransport.java:336)
+	at hudson.remoting.Channel.send(Channel.java:829)
+	at hudson.remoting.Request.callAsync(Request.java:248)
+	at hudson.remoting.Channel.callAsync(Channel.java:1139)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitorDetailed(AbstractAsyncNodeMonitorDescriptor.java:93)
+	at hudson.node_monitors.AbstractAsyncNodeMonitorDescriptor.monitor(AbstractAsyncNodeMonitorDescriptor.java:76)
+	at hudson.node_monitors.AbstractNodeMonitorDescriptor$Record.run(AbstractNodeMonitorDescriptor.java:324)
+Connection terminated
