@@ -1,2 +1,273 @@
-2026-02-18 09:30:02,334 INFO: Flask Two-Tier App startup [in /flask-two-tier/logging_config.py:19]
-2026-02-18 09:30:02,727 INFO: Flask Two-Tier App startup [in /flask-two-tier/logging_config.py:19]
+[2026-02-18 07:11:20 +0000] [1] [INFO] Starting gunicorn 22.0.0
+[2026-02-18 07:11:20 +0000] [1] [INFO] Listening at: http://0.0.0.0:5000 (1)
+[2026-02-18 07:11:20 +0000] [1] [INFO] Using worker: sync
+[2026-02-18 07:11:20 +0000] [7] [INFO] Booting worker with pid: 7
+[2026-02-18 07:11:20 +0000] [8] [INFO] Booting worker with pid: 8
+[2026-02-18 07:11:20 +0000] [9] [INFO] Booting worker with pid: 9
+[2026-02-18 07:11:20 +0000] [10] [INFO] Booting worker with pid: 10
+==================================================
+Configuration Loaded:
+Environment: development
+Database Host: postgres
+Database Name: userdb
+Database User: postgres
+Database Port: 5432
+Flask Host: 0.0.0.0
+Flask Port: 5000
+Debug Mode: True
+==================================================
+{"timestamp": "2026-02-18T07:11:20Z", "event": "app_event", "level": "INFO", "message": "Flask Two-Tier App JSON logging initialized", "logger": "app", "module": "logging_config"}
+==================================================
+Configuration Loaded:
+Environment: development
+Database Host: postgres
+Database Name: userdb
+Database User: postgres
+Database Port: 5432
+Flask Host: 0.0.0.0
+Flask Port: 5000
+Debug Mode: True
+==================================================
+{"timestamp": "2026-02-18T07:11:20Z", "event": "app_event", "level": "INFO", "message": "Flask Two-Tier App JSON logging initialized", "logger": "app", "module": "logging_config"}
+==================================================
+Configuration Loaded:
+Environment: development
+Database Host: postgres
+Database Name: userdb
+Database User: postgres
+Database Port: 5432
+Flask Host: 0.0.0.0
+Flask Port: 5000
+Debug Mode: True
+==================================================
+{"timestamp": "2026-02-18T07:11:20Z", "event": "app_event", "level": "INFO", "message": "Flask Two-Tier App JSON logging initialized", "logger": "app", "module": "logging_config"}
+==================================================
+Configuration Loaded:
+Environment: development
+Database Host: postgres
+Database Name: userdb
+Database User: postgres
+Database Port: 5432
+Flask Host: 0.0.0.0
+Flask Port: 5000
+Debug Mode: True
+==================================================
+{"timestamp": "2026-02-18T07:11:20Z", "event": "app_event", "level": "INFO", "message": "Flask Two-Tier App JSON logging initialized", "logger": "app", "module": "logging_config"}
+{"timestamp": "2026-02-18T07:11:20Z", "event": "db_connected", "level": "INFO", "message": "Database connection established successfully!"}
+{"timestamp": "2026-02-18T07:11:20Z", "event": "db_connected", "level": "INFO", "message": "Database connection established successfully!"}
+{"timestamp": "2026-02-18T07:11:20Z", "event": "db_connected", "level": "INFO", "message": "Database connection established successfully!"}
+{"timestamp": "2026-02-18T07:11:20Z", "event": "db_connected", "level": "INFO", "message": "Database connection established successfully!"}
+[2026-02-18 07:11:20 +0000] [1] [INFO] Starting gunicorn 22.0.0
+[2026-02-18 07:11:20 +0000] [1] [INFO] Listening at: http://0.0.0.0:5000 (1)
+[2026-02-18 07:11:20 +0000] [1] [INFO] Using worker: sync
+[2026-02-18 07:11:20 +0000] [7] [INFO] Booting worker with pid: 7
+[2026-02-18 07:11:20 +0000] [8] [INFO] Booting worker with pid: 8
+[2026-02-18 07:11:20 +0000] [9] [INFO] Booting worker with pid: 9
+[2026-02-18 07:11:20 +0000] [10] [INFO] Booting worker with pid: 10
+==================================================
+Configuration Loaded:
+Environment: development
+Database Host: postgres
+Database Name: userdb
+Database User: postgres
+Database Port: 5432
+Flask Host: 0.0.0.0
+Flask Port: 5000
+Debug Mode: True
+==================================================
+{"timestamp": "2026-02-18T07:11:20Z", "event": "app_event", "level": "INFO", "message": "Flask Two-Tier App JSON logging initialized", "logger": "app", "module": "logging_config"}
+==================================================
+Configuration Loaded:
+Environment: development
+Database Host: postgres
+Database Name: userdb
+Database User: postgres
+Database Port: 5432
+Flask Host: 0.0.0.0
+Flask Port: 5000
+Debug Mode: True
+==================================================
+{"timestamp": "2026-02-18T07:11:20Z", "event": "app_event", "level": "INFO", "message": "Flask Two-Tier App JSON logging initialized", "logger": "app", "module": "logging_config"}
+==================================================
+Configuration Loaded:
+Environment: development
+Database Host: postgres
+Database Name: userdb
+Database User: postgres
+Database Port: 5432
+Flask Host: 0.0.0.0
+Flask Port: 5000
+Debug Mode: True
+==================================================
+{"timestamp": "2026-02-18T07:11:20Z", "event": "app_event", "level": "INFO", "message": "Flask Two-Tier App JSON logging initialized", "logger": "app", "module": "logging_config"}
+==================================================
+Configuration Loaded:
+Environment: development
+Database Host: postgres
+Database Name: userdb
+Database User: postgres
+Database Port: 5432
+Flask Host: 0.0.0.0
+Flask Port: 5000
+Debug Mode: True
+==================================================
+{"timestamp": "2026-02-18T07:11:20Z", "event": "app_event", "level": "INFO", "message": "Flask Two-Tier App JSON logging initialized", "logger": "app", "module": "logging_config"}
+{"timestamp": "2026-02-18T07:11:20Z", "event": "db_connected", "level": "INFO", "message": "Database connection established successfully!"}
+{"timestamp": "2026-02-18T07:11:20Z", "event": "db_connected", "level": "INFO", "message": "Database connection established successfully!"}
+{"timestamp": "2026-02-18T07:11:20Z", "event": "db_connected", "level": "INFO", "message": "Database connection established successfully!"}
+{"timestamp": "2026-02-18T07:11:20Z", "event": "db_connected", "level": "INFO", "message": "Database connection established successfully!"}
+10.1.1.6 - - [18/Feb/2026:07:11:35 +0000] "GET /delete/9 HTTP/1.1" 302 189 "http://10.1.1.15:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0"
+{"timestamp": "2026-02-18T07:11:35Z", "event": "view_users", "level": "INFO", "message": "Viewing all user details", "ip": "10.1.1.6"}
+10.1.1.6 - - [18/Feb/2026:07:11:35 +0000] "GET / HTTP/1.1" 200 6706 "http://10.1.1.15:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0"
+10.1.1.6 - - [18/Feb/2026:07:12:31 +0000] "GET /add HTTP/1.1" 200 4513 "http://10.1.1.15:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0"
+{"timestamp": "2026-02-18T07:12:43Z", "event": "user_created", "level": "INFO", "message": "User created: for", "username": "for", "email": "foich@gmail.com", "ip": "10.1.1.6"}
+10.1.1.6 - - [18/Feb/2026:07:12:43 +0000] "POST /add HTTP/1.1" 302 189 "http://10.1.1.15:5000/add" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0"
+{"timestamp": "2026-02-18T07:12:43Z", "event": "view_users", "level": "INFO", "message": "Viewing all user details", "ip": "10.1.1.6"}
+10.1.1.6 - - [18/Feb/2026:07:12:43 +0000] "GET / HTTP/1.1" 200 7333 "http://10.1.1.15:5000/add" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0"
+[2026-02-18 07:11:20 +0000] [1] [INFO] Starting gunicorn 22.0.0
+[2026-02-18 07:11:20 +0000] [1] [INFO] Listening at: http://0.0.0.0:5000 (1)
+[2026-02-18 07:11:20 +0000] [1] [INFO] Using worker: sync
+[2026-02-18 07:11:20 +0000] [7] [INFO] Booting worker with pid: 7
+[2026-02-18 07:11:20 +0000] [8] [INFO] Booting worker with pid: 8
+[2026-02-18 07:11:20 +0000] [9] [INFO] Booting worker with pid: 9
+[2026-02-18 07:11:20 +0000] [10] [INFO] Booting worker with pid: 10
+==================================================
+Configuration Loaded:
+Environment: development
+Database Host: postgres
+Database Name: userdb
+Database User: postgres
+Database Port: 5432
+Flask Host: 0.0.0.0
+Flask Port: 5000
+Debug Mode: True
+==================================================
+{"timestamp": "2026-02-18T07:11:20Z", "event": "app_event", "level": "INFO", "message": "Flask Two-Tier App JSON logging initialized", "logger": "app", "module": "logging_config"}
+==================================================
+Configuration Loaded:
+Environment: development
+Database Host: postgres
+Database Name: userdb
+Database User: postgres
+Database Port: 5432
+Flask Host: 0.0.0.0
+Flask Port: 5000
+Debug Mode: True
+==================================================
+{"timestamp": "2026-02-18T07:11:20Z", "event": "app_event", "level": "INFO", "message": "Flask Two-Tier App JSON logging initialized", "logger": "app", "module": "logging_config"}
+==================================================
+Configuration Loaded:
+Environment: development
+Database Host: postgres
+Database Name: userdb
+Database User: postgres
+Database Port: 5432
+Flask Host: 0.0.0.0
+Flask Port: 5000
+Debug Mode: True
+==================================================
+{"timestamp": "2026-02-18T07:11:20Z", "event": "app_event", "level": "INFO", "message": "Flask Two-Tier App JSON logging initialized", "logger": "app", "module": "logging_config"}
+==================================================
+Configuration Loaded:
+Environment: development
+Database Host: postgres
+Database Name: userdb
+Database User: postgres
+Database Port: 5432
+Flask Host: 0.0.0.0
+Flask Port: 5000
+Debug Mode: True
+==================================================
+{"timestamp": "2026-02-18T07:11:20Z", "event": "app_event", "level": "INFO", "message": "Flask Two-Tier App JSON logging initialized", "logger": "app", "module": "logging_config"}
+{"timestamp": "2026-02-18T07:11:20Z", "event": "db_connected", "level": "INFO", "message": "Database connection established successfully!"}
+{"timestamp": "2026-02-18T07:11:20Z", "event": "db_connected", "level": "INFO", "message": "Database connection established successfully!"}
+{"timestamp": "2026-02-18T07:11:20Z", "event": "db_connected", "level": "INFO", "message": "Database connection established successfully!"}
+{"timestamp": "2026-02-18T07:11:20Z", "event": "db_connected", "level": "INFO", "message": "Database connection established successfully!"}
+10.1.1.6 - - [18/Feb/2026:07:11:35 +0000] "GET /delete/9 HTTP/1.1" 302 189 "http://10.1.1.15:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0"
+{"timestamp": "2026-02-18T07:11:35Z", "event": "view_users", "level": "INFO", "message": "Viewing all user details", "ip": "10.1.1.6"}
+10.1.1.6 - - [18/Feb/2026:07:11:35 +0000] "GET / HTTP/1.1" 200 6706 "http://10.1.1.15:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0"
+10.1.1.6 - - [18/Feb/2026:07:12:31 +0000] "GET /add HTTP/1.1" 200 4513 "http://10.1.1.15:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0"
+{"timestamp": "2026-02-18T07:12:43Z", "event": "user_created", "level": "INFO", "message": "User created: for", "username": "for", "email": "foich@gmail.com", "ip": "10.1.1.6"}
+10.1.1.6 - - [18/Feb/2026:07:12:43 +0000] "POST /add HTTP/1.1" 302 189 "http://10.1.1.15:5000/add" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0"
+{"timestamp": "2026-02-18T07:12:43Z", "event": "view_users", "level": "INFO", "message": "Viewing all user details", "ip": "10.1.1.6"}
+10.1.1.6 - - [18/Feb/2026:07:12:43 +0000] "GET / HTTP/1.1" 200 7333 "http://10.1.1.15:5000/add" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0"
+{"timestamp": "2026-02-18T07:14:41Z", "event": "view_users", "level": "INFO", "message": "Viewing all user details", "ip": "10.1.1.6"}
+10.1.1.6 - - [18/Feb/2026:07:14:41 +0000] "GET / HTTP/1.1" 200 7128 "http://10.1.1.15:5000/add" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0"
+10.1.1.6 - - [18/Feb/2026:07:14:53 +0000] "GET /delete/11 HTTP/1.1" 302 189 "http://10.1.1.15:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0"
+{"timestamp": "2026-02-18T07:14:53Z", "event": "view_users", "level": "INFO", "message": "Viewing all user details", "ip": "10.1.1.6"}
+10.1.1.6 - - [18/Feb/2026:07:14:53 +0000] "GET / HTTP/1.1" 200 6706 "http://10.1.1.15:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0"
+[2026-02-18 07:11:20 +0000] [1] [INFO] Starting gunicorn 22.0.0
+[2026-02-18 07:11:20 +0000] [1] [INFO] Listening at: http://0.0.0.0:5000 (1)
+[2026-02-18 07:11:20 +0000] [1] [INFO] Using worker: sync
+[2026-02-18 07:11:20 +0000] [7] [INFO] Booting worker with pid: 7
+[2026-02-18 07:11:20 +0000] [8] [INFO] Booting worker with pid: 8
+[2026-02-18 07:11:20 +0000] [9] [INFO] Booting worker with pid: 9
+[2026-02-18 07:11:20 +0000] [10] [INFO] Booting worker with pid: 10
+==================================================
+Configuration Loaded:
+Environment: development
+Database Host: postgres
+Database Name: userdb
+Database User: postgres
+Database Port: 5432
+Flask Host: 0.0.0.0
+Flask Port: 5000
+Debug Mode: True
+==================================================
+{"timestamp": "2026-02-18T07:11:20Z", "event": "app_event", "level": "INFO", "message": "Flask Two-Tier App JSON logging initialized", "logger": "app", "module": "logging_config"}
+==================================================
+Configuration Loaded:
+Environment: development
+Database Host: postgres
+Database Name: userdb
+Database User: postgres
+Database Port: 5432
+Flask Host: 0.0.0.0
+Flask Port: 5000
+Debug Mode: True
+==================================================
+{"timestamp": "2026-02-18T07:11:20Z", "event": "app_event", "level": "INFO", "message": "Flask Two-Tier App JSON logging initialized", "logger": "app", "module": "logging_config"}
+==================================================
+Configuration Loaded:
+Environment: development
+Database Host: postgres
+Database Name: userdb
+Database User: postgres
+Database Port: 5432
+Flask Host: 0.0.0.0
+Flask Port: 5000
+Debug Mode: True
+==================================================
+{"timestamp": "2026-02-18T07:11:20Z", "event": "app_event", "level": "INFO", "message": "Flask Two-Tier App JSON logging initialized", "logger": "app", "module": "logging_config"}
+==================================================
+Configuration Loaded:
+Environment: development
+Database Host: postgres
+Database Name: userdb
+Database User: postgres
+Database Port: 5432
+Flask Host: 0.0.0.0
+Flask Port: 5000
+Debug Mode: True
+==================================================
+{"timestamp": "2026-02-18T07:11:20Z", "event": "app_event", "level": "INFO", "message": "Flask Two-Tier App JSON logging initialized", "logger": "app", "module": "logging_config"}
+{"timestamp": "2026-02-18T07:11:20Z", "event": "db_connected", "level": "INFO", "message": "Database connection established successfully!"}
+{"timestamp": "2026-02-18T07:11:20Z", "event": "db_connected", "level": "INFO", "message": "Database connection established successfully!"}
+{"timestamp": "2026-02-18T07:11:20Z", "event": "db_connected", "level": "INFO", "message": "Database connection established successfully!"}
+{"timestamp": "2026-02-18T07:11:20Z", "event": "db_connected", "level": "INFO", "message": "Database connection established successfully!"}
+10.1.1.6 - - [18/Feb/2026:07:11:35 +0000] "GET /delete/9 HTTP/1.1" 302 189 "http://10.1.1.15:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0"
+{"timestamp": "2026-02-18T07:11:35Z", "event": "view_users", "level": "INFO", "message": "Viewing all user details", "ip": "10.1.1.6"}
+10.1.1.6 - - [18/Feb/2026:07:11:35 +0000] "GET / HTTP/1.1" 200 6706 "http://10.1.1.15:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0"
+10.1.1.6 - - [18/Feb/2026:07:12:31 +0000] "GET /add HTTP/1.1" 200 4513 "http://10.1.1.15:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0"
+{"timestamp": "2026-02-18T07:12:43Z", "event": "user_created", "level": "INFO", "message": "User created: for", "username": "for", "email": "foich@gmail.com", "ip": "10.1.1.6"}
+10.1.1.6 - - [18/Feb/2026:07:12:43 +0000] "POST /add HTTP/1.1" 302 189 "http://10.1.1.15:5000/add" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0"
+{"timestamp": "2026-02-18T07:12:43Z", "event": "view_users", "level": "INFO", "message": "Viewing all user details", "ip": "10.1.1.6"}
+10.1.1.6 - - [18/Feb/2026:07:12:43 +0000] "GET / HTTP/1.1" 200 7333 "http://10.1.1.15:5000/add" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0"
+{"timestamp": "2026-02-18T07:14:41Z", "event": "view_users", "level": "INFO", "message": "Viewing all user details", "ip": "10.1.1.6"}
+10.1.1.6 - - [18/Feb/2026:07:14:41 +0000] "GET / HTTP/1.1" 200 7128 "http://10.1.1.15:5000/add" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0"
+10.1.1.6 - - [18/Feb/2026:07:14:53 +0000] "GET /delete/11 HTTP/1.1" 302 189 "http://10.1.1.15:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0"
+{"timestamp": "2026-02-18T07:14:53Z", "event": "view_users", "level": "INFO", "message": "Viewing all user details", "ip": "10.1.1.6"}
+10.1.1.6 - - [18/Feb/2026:07:14:53 +0000] "GET / HTTP/1.1" 200 6706 "http://10.1.1.15:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0"
+10.1.1.6 - - [18/Feb/2026:07:17:02 +0000] "GET /delete/8 HTTP/1.1" 302 189 "http://10.1.1.15:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0"
+{"timestamp": "2026-02-18T07:17:02Z", "event": "view_users", "level": "INFO", "message": "Viewing all user details", "ip": "10.1.1.6"}
+10.1.1.6 - - [18/Feb/2026:07:17:02 +0000] "GET / HTTP/1.1" 200 6080 "http://10.1.1.15:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0"

@@ -4,6 +4,7 @@ services:
     web:
       build: .
       #image: root938/flask-two-tier-web:1.1
+      container_name: flask-two-tier-web
       ports:
         - "5000:5000"
       environment:
@@ -17,6 +18,11 @@ services:
       depends_on:
         postgres:
           condition: service_healthy
+      logging:
+        driver: json-file
+        options:
+          max-size: "10m"
+          max-file: "5"
 
     postgres:
       image: postgres:16
@@ -36,7 +42,15 @@ services:
         retries: 5
       networks:
         - data
-
+    filebeat:
+      image: docker.elastic.co/beats/filebeat:9.3.0
+      user: root
+      volumes: 
+        - ./filebeat/filebeat.yml:/usr/share/filebeat/filebeat.yml:ro
+        - /var/lib/docker/containers:/var/lib/docker/containers:ro
+        - /var/run/docker.sock:/var/run/docker.sock:ro
+      networks:
+        - data
 networks:
   data:
 
